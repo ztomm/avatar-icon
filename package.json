@@ -1,6 +1,6 @@
 {
 	"name": "avatar-icon",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A simple avatar generator script.",
 	"main": "index.js",
 	"repository": {
