@@ -1,0 +1,27 @@
+{
+	"name": "avatar-icon",
+	"version": "1.0.0",
+	"description": "A simple avatar generator script.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ztomm/avatar-icon.git"
+	},
+	"keywords": [
+		"avatar",
+		"generator",
+		"icon",
+		"node.js"
+	],
+	"author": "Murat Motz <dev@ztom.de> (https://www.kmgt.de)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ztomm/avatar-icon/issues"
+	},
+	"dependencies": {
+		"canvas": "^2.9.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}
