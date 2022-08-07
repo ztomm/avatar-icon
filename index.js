@@ -32,7 +32,7 @@ module.exports = function (options = {}) {
 	let colorRange      = options.colorRange      || 12   // amount of different colors
 	let brightness      = options.brightness      || 40   // make it bright: start at 40 from 255 colors
 	let contrast        = options.contrast        || 50   // %, take similar colors
-	let backgroundColor =	options.backgroundColor || ''   // #hex or empty
+	let backgroundColor = options.backgroundColor || ''   // #hex or empty
 	let fillRatio       = options.fillRatio       || 60   // %, let some white space
 	let rectangleRatio  = options.rectangleRatio  || 60   // %, ratio of rectangles
 	let triangleRatio   = options.triangleRatio   || 40   // %, ratio of triangles
@@ -157,7 +157,7 @@ module.exports = function (options = {}) {
 
 	if (returnType === 'buffer')
 		return canvas.toBuffer('image/png')
-	// write returned buffer to disk: fs.writeFileSync('./image.png', buffer)
+	// write buffer to disk: fs.writeFileSync('./image.png', buffer)
 
 	return canvas.toDataURL()
 }

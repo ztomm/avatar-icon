@@ -22,6 +22,11 @@ A simple avatar generator script for Node.js.
 ![avatar-icon-15](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-15.png)
 ![avatar-icon-16](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-16.png)
 
+![avatar-icon-17](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-17.png)
+![avatar-icon-18](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-18.png)
+![avatar-icon-19](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-19.png)
+![avatar-icon-20](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-20.png)
+
 ## install and usage
 
 ````bash
