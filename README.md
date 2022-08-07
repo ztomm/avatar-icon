@@ -2,25 +2,25 @@
 
 A simple avatar generator script for Node.js.  
 
-![avatar-icon-1](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-1.png)
-![avatar-icon-2](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-2.png)
-![avatar-icon-3](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-3.png)
-![avatar-icon-4](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-4.png)  
+![avatar-icon-1](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-1.png)
+![avatar-icon-2](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-2.png)
+![avatar-icon-3](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-3.png)
+![avatar-icon-4](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-4.png)  
 
-![avatar-icon-5](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-5.png)
-![avatar-icon-6](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-6.png)
-![avatar-icon-7](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-7.png)
-![avatar-icon-8](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-8.png)  
+![avatar-icon-5](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-5.png)
+![avatar-icon-6](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-6.png)
+![avatar-icon-7](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-7.png)
+![avatar-icon-8](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-8.png)  
 
-![avatar-icon-9](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-9.png)
-![avatar-icon-10](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-10.png)
-![avatar-icon-11](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-11.png)
-![avatar-icon-12](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-12.png)
+![avatar-icon-9](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-9.png)
+![avatar-icon-10](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-10.png)
+![avatar-icon-11](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-11.png)
+![avatar-icon-12](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-12.png)
 
-![avatar-icon-13](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-13.png)
-![avatar-icon-14](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-14.png)
-![avatar-icon-15](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-15.png)
-![avatar-icon-16](https://raw.githubusercontent.com/ztomm/avatar-icon/master/avatar-icon-16.png)
+![avatar-icon-13](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-13.png)
+![avatar-icon-14](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-14.png)
+![avatar-icon-15](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-15.png)
+![avatar-icon-16](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-16.png)
 
 ## install and usage
 
