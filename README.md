@@ -1,6 +1,6 @@
 # avatar icon generator
 
-A simple avatar generator script for Node.js.  
+A simple avatar generator script for Node.js ([on npm](https://www.npmjs.com/package/avatar-icon)).  
 
 ![avatar-icon-1](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-1.png)
 ![avatar-icon-2](https://raw.githubusercontent.com/ztomm/avatar-icon/master/sample-icons/avatar-icon-2.png)
