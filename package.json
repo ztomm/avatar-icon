@@ -10,8 +10,7 @@
 	"keywords": [
 		"avatar",
 		"generator",
-		"icon",
-		"node.js"
+		"icon"
 	],
 	"author": "Murat Motz <dev@ztom.de> (https://www.kmgt.de)",
 	"license": "MIT",
