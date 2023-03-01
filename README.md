@@ -33,11 +33,16 @@ A simple avatar generator script for Node.js ([on npm](https://www.npmjs.com/pac
 npm i avatar-icon
 ````
 
+**import/require**
+````javascript
+import avatarIcon from 'avatar-icon'
+// or
+// const avatarIcon = require('avatar-icon')
+````
+
 **dataURL**
 ````javascript
-const avatarIcon = require('avatar-icon');
-
-let dataURL = avatarIcon();
+let dataURL = avatarIcon()
 
 // <img src={{dataURL}} alt="">
 ````
@@ -45,15 +50,15 @@ let dataURL = avatarIcon();
 **image file**
 
 ````javascript
-const avatarIcon = require('avatar-icon');
-const fs = require('fs');
+import fs from 'fs';
+// or
+// const fs = require('fs');
 
 let buffer = avatarIcon({
   returnType: 'buffer'
 });
 
 fs.writeFileSync(`./icon.png`, buffer);
-
 ````
 
 ## options and defaults
@@ -72,5 +77,18 @@ let icon = avatarIcon({
   circleRatio     : 0,    // %, ratio of circles
   returnType      : '',   // default dataURL || 'buffer'
 });
+````
 
+## known issues 
+Since [node-canvas](https://www.npmjs.com/package/canvas) and [sharp](https://www.npmjs.com/package/sharp) together can cause [problems](https://github.com/Automattic/node-canvas/issues/930) it needs a workaround. 
+
+Import node-canvas at the very beginning of the project and create a blank canvas. This lets node-canvas and sharp work as usual.
+
+````javascript
+// my-startfile.js
+
+const { createCanvas } = require('canvas')
+createCanvas(0, 0)
+
+// ...
 ````

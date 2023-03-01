@@ -1,8 +1,10 @@
 {
 	"name": "avatar-icon",
-	"version": "1.0.5",
+	"version": "1.1.0",
 	"description": "A simple avatar generator script.",
 	"main": "index.js",
+	"type": "module",
+	"types": "index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ztomm/avatar-icon.git"

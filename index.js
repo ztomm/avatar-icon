@@ -1,6 +1,6 @@
 /*!
  * avatar-icon
- * Copyright(c) 2022 Murat Motz
+ * Copyright(c) 2023 Murat Motz
  * MIT Licensed
  * https://github.com/ztomm/avatar-icon
  */
@@ -9,35 +9,48 @@
 
 /**
  * Module dependencies
- * @private
+ * ----------------------------------------------------------
  */
 
-const { createCanvas } = require('canvas')
-
-/**
- * Module variables
- * @private
- */
-
-const moduleName = 'avatar-icon'
+import { createCanvas } from 'canvas'
 
 /**
  * Module
+ * ----------------------------------------------------------
  */
 
-module.exports = function (options = {}) {
-  // options documented under https://github.com/ztomm/avatar-icon
-  let size            = options.size            || 48   // px
-  let density         = options.density         || 6    // amount of shapes
-  let colorRange      = options.colorRange      || 12   // amount of different colors
-  let brightness      = options.brightness      || 40   // make it bright: start at 40 from 255 colors
-  let contrast        = options.contrast        || 50   // %, take similar colors
-  let backgroundColor = options.backgroundColor || ''   // #hex or empty
-  let fillRatio       = options.fillRatio       || 60   // %, let some white space
-  let rectangleRatio  = options.rectangleRatio  || 60   // %, ratio of rectangles
-  let triangleRatio   = options.triangleRatio   || 40   // %, ratio of triangles
-  let circleRatio     = options.circleRatio     || 0    // %, ratio of circles
-  let returnType      = options.returnType      || ''   // default dataURL || 'buffer'
+export default function avatarIcon(options) {
+
+	options = options || {}
+	
+	// Documentation for the options under https://github.com/ztomm/avatar-icon
+	options = {
+		size            : 48,   // px
+		density         : 6,    // amount of shapes
+		colorRange      : 12,   // amount of different colors
+		brightness      : 40,   // make it bright: start at 40 from 255 colors
+		contrast        : 50,   // %, take similar colors
+		backgroundColor : '',   // #hex or empty
+		fillRatio       : 60,   // %, let some white space
+		rectangleRatio  : 60,   // %, ratio of rectangles
+		triangleRatio   : 40,   // %, ratio of triangles
+		circleRatio     : 0,    // %, ratio of circles
+		returnType      : '',   // default dataURL || 'buffer'
+		...options // assign user options to default options
+	}
+	
+	// redundant but more readable
+  let size            = options.size 
+  let density         = options.density 
+  let colorRange      = options.colorRange 
+  let brightness      = options.brightness 
+  let contrast        = options.contrast 
+  let backgroundColor = options.backgroundColor 
+  let fillRatio       = options.fillRatio 
+  let rectangleRatio  = options.rectangleRatio 
+  let triangleRatio   = options.triangleRatio 
+  let circleRatio     = options.circleRatio 
+  let returnType      = options.returnType 
 
   // canvas
   let canvas = createCanvas(size, size)
@@ -128,7 +141,7 @@ module.exports = function (options = {}) {
         if (shape === 'arc') {
           ctxData.arc = [x + (blockSize / 2), y + (blockSize / 2), blockSize / 2, 0, 2 * Math.PI]
         }
-        data.push(ctxData);
+        data.push(ctxData)
       }
     }
   }
