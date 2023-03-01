@@ -12,14 +12,14 @@
  * ----------------------------------------------------------
  */
 
-import { createCanvas } from 'canvas'
+const { createCanvas } = require('canvas')
 
 /**
  * Module
  * ----------------------------------------------------------
  */
 
-export default function avatarIcon(options) {
+module.exports = function avatarIcon(options) {
 
 	options = options || {}
 	
