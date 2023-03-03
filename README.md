@@ -36,7 +36,6 @@ npm i avatar-icon
 **import/require**
 ````javascript
 import avatarIcon from 'avatar-icon'
-// or
 // const avatarIcon = require('avatar-icon')
 ````
 
@@ -50,15 +49,14 @@ let dataURL = avatarIcon()
 **image file**
 
 ````javascript
-import fs from 'fs';
-// or
-// const fs = require('fs');
+import fs from 'fs'
+// const fs = require('fs')
 
 let buffer = avatarIcon({
   returnType: 'buffer'
-});
+})
 
-fs.writeFileSync(`./icon.png`, buffer);
+fs.writeFileSync('./icon.png', buffer)
 ````
 
 ## options and defaults
