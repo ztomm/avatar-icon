@@ -7,12 +7,14 @@
 
 'use strict'
 
+
 /**
  * Module dependencies
  * ----------------------------------------------------------
  */
 
 const { createCanvas } = require('canvas')
+
 
 /**
  * Module
@@ -21,25 +23,25 @@ const { createCanvas } = require('canvas')
 
 module.exports = function avatarIcon(options) {
 
-	options = options || {}
-	
-	// Documentation for the options under https://github.com/ztomm/avatar-icon
-	options = {
-		size            : 48,   // px
-		density         : 6,    // amount of shapes
-		colorRange      : 12,   // amount of different colors
-		brightness      : 40,   // make it bright: start at 40 from 255 colors
-		contrast        : 50,   // %, take similar colors
-		backgroundColor : '',   // #hex or empty
-		fillRatio       : 60,   // %, let some white space
-		rectangleRatio  : 60,   // %, ratio of rectangles
-		triangleRatio   : 40,   // %, ratio of triangles
-		circleRatio     : 0,    // %, ratio of circles
-		returnType      : '',   // default dataURL || 'buffer'
-		...options // assign user options to default options
-	}
-	
-	// redundant but more readable
+  options = options || {}
+  
+  // Documentation for the options under https://github.com/ztomm/avatar-icon
+  options = {
+    size            : 48,   // px
+    density         : 6,    // amount of shapes
+    colorRange      : 12,   // amount of different colors
+    brightness      : 40,   // make it bright: start at 40 from 255 colors
+    contrast        : 50,   // %, take similar colors
+    backgroundColor : '',   // #hex or empty
+    fillRatio       : 60,   // %, let some white space
+    rectangleRatio  : 60,   // %, ratio of rectangles
+    triangleRatio   : 40,   // %, ratio of triangles
+    circleRatio     : 0,    // %, ratio of circles
+    returnType      : '',   // default dataURL || 'buffer'
+    ...options // assign user options to default options
+  }
+  
+  // redundant but more readable
   let size            = options.size 
   let density         = options.density 
   let colorRange      = options.colorRange 

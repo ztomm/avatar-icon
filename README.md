@@ -79,16 +79,4 @@ let icon = avatarIcon({
 });
 ````
 
-## known issues 
-Since [node-canvas](https://www.npmjs.com/package/canvas) and [sharp](https://www.npmjs.com/package/sharp) together can cause [problems](https://github.com/Automattic/node-canvas/issues/930) it needs a workaround. 
-
-Import node-canvas at the very beginning of the project and create a blank canvas. This lets node-canvas and sharp work as usual.
-
-````javascript
-// my-startfile.js
-
-const { createCanvas } = require('canvas')
-createCanvas(0, 0)
-
-// ...
-````
+If you want to use it with sharp, you should also read [problems](https://github.com/Automattic/node-canvas/issues/930).
