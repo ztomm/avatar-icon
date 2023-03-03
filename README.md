@@ -79,4 +79,4 @@ let icon = avatarIcon({
 });
 ````
 
-If you want to use it with sharp, you should also read [problems](https://github.com/Automattic/node-canvas/issues/930).
+If you want to use it with sharp, you should also read [this](https://github.com/Automattic/node-canvas/issues/930).
