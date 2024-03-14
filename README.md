@@ -76,5 +76,3 @@ let icon = avatarIcon({
   returnType      : '',   // default dataURL || 'buffer'
 });
 ````
-
-If you want to use it with sharp, you should also read [this](https://github.com/Automattic/node-canvas/issues/930).
